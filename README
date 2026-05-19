@@ -1,12 +1,9 @@
 # 🐱 Lojinha do Logan
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/Maven-Build%20Tool-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" alt="Maven">
-  <img src="https://img.shields.io/badge/POO-Orientacao%20a%20Objetos-blueviolet?style=for-the-badge" alt="POO">
-  <img src="https://img.shields.io/badge/Status-Concluido-brightgreen?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</p>
+![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![POO](https://img.shields.io/badge/POO-Programação%20Orientada%20a%20Objetos-blueviolet?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/GitHub-Portfólio-181717?style=for-the-badge&logo=github)
 
 Projeto final do Bloco 01 desenvolvido em **Java**, com foco na aplicação dos principais conceitos de **Programação Orientada a Objetos (POO)**.
 
@@ -16,8 +13,6 @@ Projeto final do Bloco 01 desenvolvido em **Java**, com foco na aplicação dos 
 A **Lojinha do Logan** é um sistema de gerenciamento de produtos para uma loja pet, executado pelo terminal.
 
 O projeto permite realizar operações básicas de cadastro, listagem, busca, atualização, exclusão e controle de estoque de produtos, utilizando uma estrutura organizada em pacotes por responsabilidade.
-
-A versão atual do projeto utiliza **Maven**, seguindo uma estrutura mais padronizada para projetos Java.
 
 
 ## 🚀 Funcionalidades
@@ -32,7 +27,6 @@ A versão atual do projeto utiliza **Maven**, seguindo uma estrutura mais padron
 - Exibir menu interativo no terminal
 - Utilizar mensagens coloridas no console
 
-
 ## 🧠 Conceitos aplicados
 
 - Programação Orientada a Objetos
@@ -45,45 +39,38 @@ A versão atual do projeto utiliza **Maven**, seguindo uma estrutura mais padron
 - Collections com `ArrayList`
 - Tratamento de exceções personalizadas
 - Separação de responsabilidades em pacotes
-- Estruturação de projeto com Maven
-
 
 ## 🛠️ Tecnologias utilizadas
 
-- Java 17
-- Maven
+- Java
 - Eclipse / Spring Tool Suite
 - Git
 - GitHub
-
 
 ## 📁 Estrutura do projeto
 
 ```text
 src/
-└── main/
-    └── java/
-        ├── Loja/
-        │   ├── Controller/
-        │   │   └── ProdutoController.java
-        │   │
-        │   ├── Exception/
-        │   │   └── ProdutoNaoEncontrado.java
-        │   │
-        │   ├── Model/
-        │   │   ├── Produto.java
-        │   │   └── ProdutoPet.java
-        │   │
-        │   ├── Repository/
-        │   │   └── ProdutoRepository.java
-        │   │
-        │   └── util/
-        │       └── Cores.java
-        │
-        └── Menu/
-            └── Menu_Logan.java
+├── Loja/
+│   ├── Controller/
+│   │   └── ProdutoController.java
+│   │
+│   ├── Exception/
+│   │   └── ProdutoNaoEncontrado.java
+│   │
+│   ├── Model/
+│   │   ├── Produto.java
+│   │   └── ProdutoPet.java
+│   │
+│   ├── Repository/
+│   │   └── ProdutoRepository.java
+│   │
+│   └── util/
+│       └── Cores.java
+│
+└── Menu/
+    └── Menu_Logan.java
 ```
-
 
 ## 📦 Organização dos pacotes
 
@@ -125,44 +112,15 @@ git clone https://github.com/Day-Barbosa/projeto_final_bloco_01.git
 
 2. Abra o projeto no **Eclipse** ou **Spring Tool Suite**.
 
-3. Importe o projeto como Maven:
+3. Acesse a classe principal:
 
 ```text
-File > Import > Maven > Existing Maven Projects
+src/Menu/Menu_Logan.java
 ```
 
-4. Selecione a pasta do projeto e conclua a importação.
+4. Execute o método `main`.
 
-5. Acesse a classe principal:
-
-```text
-src/main/java/Menu/Menu_Logan.java
-```
-
-6. Execute o método `main`.
-
-## ⚙️ Compilação com Maven
-
-Este projeto utiliza Maven para organização e compilação.
-
-Para compilar pelo terminal, execute:
-
-```bash
-mvn clean compile
-```
-
-Também é possível compilar pelo Spring Tool Suite:
-
-```text
-Run As > Maven build... > Goals: clean compile
-```
-
-Ao compilar corretamente, o Maven exibirá a mensagem:
-
-```text
-BUILD SUCCESS
-```
-
+   
 
 ## 💻 Exemplo de menu
 
@@ -180,25 +138,15 @@ Ao executar o sistema, o terminal exibe opções como:
 ```
 
 
-
 ## 📚 Aprendizados
 
 Durante o desenvolvimento deste projeto, foram praticados conceitos fundamentais de Java e Programação Orientada a Objetos, com foco em organização de código, reutilização, criação de classes, uso de interface, herança, tratamento de exceções e manipulação de listas em memória.
-
-A conversão para Maven também permitiu aplicar uma estrutura mais próxima do padrão utilizado em projetos Java profissionais.
-
 
 
 ## 👩‍💻 Desenvolvedora
 
 **Dayana Barbosa**
 
-Desenvolvedora Java em formação, com foco em desenvolvimento back-end, Programação Orientada a Objetos, SQL e boas práticas de organização de código.
-
-<p>
-  <a href="https://github.com/Day-Barbosa">
-    <img src="https://img.shields.io/badge/GitHub-Day--Barbosa-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Dayana%20Barbosa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](COLE_AQUI_SEU_LINKEDIN)
 
 ## 📄 Licença
 
