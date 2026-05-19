@@ -1,0 +1,153 @@
+# 🐱 Lojinha do Logan
+
+![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![POO](https://img.shields.io/badge/POO-Programação%20Orientada%20a%20Objetos-blueviolet?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/GitHub-Portfólio-181717?style=for-the-badge&logo=github)
+
+Projeto final do Bloco 01 desenvolvido em **Java**, com foco na aplicação dos principais conceitos de **Programação Orientada a Objetos (POO)**.
+
+
+## 📌 Sobre o projeto
+
+A **Lojinha do Logan** é um sistema de gerenciamento de produtos para uma loja pet, executado pelo terminal.
+
+O projeto permite realizar operações básicas de cadastro, listagem, busca, atualização, exclusão e controle de estoque de produtos, utilizando uma estrutura organizada em pacotes por responsabilidade.
+
+
+## 🚀 Funcionalidades
+
+- Cadastrar produtos
+- Listar todos os produtos cadastrados
+- Buscar produto por ID
+- Atualizar dados de um produto
+- Deletar produto
+- Registrar entrada de estoque
+- Registrar saída de estoque
+- Exibir menu interativo no terminal
+- Utilizar mensagens coloridas no console
+
+## 🧠 Conceitos aplicados
+
+- Programação Orientada a Objetos
+- Classes e objetos
+- Encapsulamento
+- Herança
+- Polimorfismo
+- Classe abstrata
+- Interface
+- Collections com `ArrayList`
+- Tratamento de exceções personalizadas
+- Separação de responsabilidades em pacotes
+
+## 🛠️ Tecnologias utilizadas
+
+- Java
+- Eclipse / Spring Tool Suite
+- Git
+- GitHub
+
+## 📁 Estrutura do projeto
+
+```text
+src/
+├── Loja/
+│   ├── Controller/
+│   │   └── ProdutoController.java
+│   │
+│   ├── Exception/
+│   │   └── ProdutoNaoEncontrado.java
+│   │
+│   ├── Model/
+│   │   ├── Produto.java
+│   │   └── ProdutoPet.java
+│   │
+│   ├── Repository/
+│   │   └── ProdutoRepository.java
+│   │
+│   └── util/
+│       └── Cores.java
+│
+└── Menu/
+    └── Menu_Logan.java
+```
+
+## 📦 Organização dos pacotes
+
+### `Menu`
+
+Contém a classe principal do sistema, responsável por exibir o menu no terminal, receber as opções digitadas pela pessoa usuária e iniciar o fluxo da aplicação.
+
+### `Loja.Model`
+
+Contém as classes que representam os produtos do sistema.
+
+- `Produto`: classe abstrata base para os produtos.
+- `ProdutoPet`: classe especializada que herda de `Produto`.
+
+### `Loja.Controller`
+
+Contém a classe responsável por controlar as operações do sistema, como cadastro, listagem, busca, atualização, exclusão e controle de estoque.
+
+### `Loja.Repository`
+
+Contém a interface que define o contrato das operações que devem ser implementadas pelo controller.
+
+### `Loja.Exception`
+
+Contém a exceção personalizada utilizada quando um produto não é encontrado.
+
+### `Loja.util`
+
+Contém recursos auxiliares do sistema, como a classe responsável por cores e mensagens no terminal.
+
+
+## ▶️ Como executar o projeto
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/Day-Barbosa/projeto_final_bloco_01.git
+```
+
+2. Abra o projeto no **Eclipse** ou **Spring Tool Suite**.
+
+3. Acesse a classe principal:
+
+```text
+src/Menu/Menu_Logan.java
+```
+
+4. Execute o método `main`.
+
+   
+
+## 💻 Exemplo de menu
+
+Ao executar o sistema, o terminal exibe opções como:
+
+```text
+1 | Cadastrar Produto
+2 | Listar Todos os Produtos
+3 | Buscar Produto por ID
+4 | Atualizar Produto
+5 | Deletar Produto
+6 | Saída de Produto
+7 | Atualizar Estoque
+0 | Sair
+```
+
+
+## 📚 Aprendizados
+
+Durante o desenvolvimento deste projeto, foram praticados conceitos fundamentais de Java e Programação Orientada a Objetos, com foco em organização de código, reutilização, criação de classes, uso de interface, herança, tratamento de exceções e manipulação de listas em memória.
+
+
+## 👩‍💻 Desenvolvedora
+
+**Dayana Barbosa**
+
+
+## 📄 Licença
+
+Este projeto foi desenvolvido para fins educacionais.
