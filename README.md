@@ -1,12 +1,14 @@
 # 🐱 Lojinha do Logan
 
 ![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![POO](https://img.shields.io/badge/POO-Programação%20Orientada%20a%20Objetos-blueviolet?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)
-![GitHub](https://img.shields.io/badge/GitHub-Portfólio-181717?style=for-the-badge&logo=github)
+![POO](https://img.shields.io/badge/POO-Programa%C3%A7%C3%A3o%20Orientada%20a%20Objetos-blueviolet?style=for-the-badge)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/GitHub-Portf%C3%B3lio-181717?style=for-the-badge&logo=github)
 
 Projeto final do Bloco 01 desenvolvido em **Java**, com foco na aplicação dos principais conceitos de **Programação Orientada a Objetos (POO)**.
 
+---
 
 ## 📌 Sobre o projeto
 
@@ -14,6 +16,7 @@ A **Lojinha do Logan** é um sistema de gerenciamento de produtos para uma loja 
 
 O projeto permite realizar operações básicas de cadastro, listagem, busca, atualização, exclusão e controle de estoque de produtos, utilizando uma estrutura organizada em pacotes por responsabilidade.
 
+---
 
 ## 🚀 Funcionalidades
 
@@ -26,6 +29,8 @@ O projeto permite realizar operações básicas de cadastro, listagem, busca, at
 - Registrar saída de estoque
 - Exibir menu interativo no terminal
 - Utilizar mensagens coloridas no console
+
+---
 
 ## 🧠 Conceitos aplicados
 
@@ -40,37 +45,50 @@ O projeto permite realizar operações básicas de cadastro, listagem, busca, at
 - Tratamento de exceções personalizadas
 - Separação de responsabilidades em pacotes
 
+---
+
 ## 🛠️ Tecnologias utilizadas
 
 - Java
+- Maven
 - Eclipse / Spring Tool Suite
 - Git
 - GitHub
 
+---
+
 ## 📁 Estrutura do projeto
 
 ```text
-src/
-├── Loja/
-│   ├── Controller/
-│   │   └── ProdutoController.java
-│   │
-│   ├── Exception/
-│   │   └── ProdutoNaoEncontrado.java
-│   │
-│   ├── Model/
-│   │   ├── Produto.java
-│   │   └── ProdutoPet.java
-│   │
-│   ├── Repository/
-│   │   └── ProdutoRepository.java
-│   │
-│   └── util/
-│       └── Cores.java
+projeto_final_bloco_01/
+├── src/
+│   └── main/
+│       └── java/
+│           ├── Loja/
+│           │   ├── Controller/
+│           │   │   └── ProdutoController.java
+│           │   │
+│           │   ├── Exception/
+│           │   │   └── ProdutoNaoEncontrado.java
+│           │   │
+│           │   ├── Model/
+│           │   │   ├── Produto.java
+│           │   │   └── ProdutoPet.java
+│           │   │
+│           │   ├── Repository/
+│           │   │   └── ProdutoRepository.java
+│           │   │
+│           │   └── util/
+│           │       └── Cores.java
+│           │
+│           └── Menu/
+│               └── Menu_Logan.java
 │
-└── Menu/
-    └── Menu_Logan.java
+├── pom.xml
+└── README.md
 ```
+
+---
 
 ## 📦 Organização dos pacotes
 
@@ -101,6 +119,7 @@ Contém a exceção personalizada utilizada quando um produto não é encontrado
 
 Contém recursos auxiliares do sistema, como a classe responsável por cores e mensagens no terminal.
 
+---
 
 ## ▶️ Como executar o projeto
 
@@ -110,17 +129,17 @@ Contém recursos auxiliares do sistema, como a classe responsável por cores e m
 git clone https://github.com/Day-Barbosa/projeto_final_bloco_01.git
 ```
 
-2. Abra o projeto no **Eclipse** ou **Spring Tool Suite**.
+2. Abra o projeto no **Eclipse** ou **Spring Tool Suite** como um projeto Maven existente.
 
 3. Acesse a classe principal:
 
 ```text
-src/Menu/Menu_Logan.java
+src/main/java/Menu/Menu_Logan.java
 ```
 
 4. Execute o método `main`.
 
-   
+---
 
 ## 💻 Exemplo de menu
 
@@ -137,16 +156,19 @@ Ao executar o sistema, o terminal exibe opções como:
 0 | Sair
 ```
 
+---
 
 ## 📚 Aprendizados
 
-Durante o desenvolvimento deste projeto, foram praticados conceitos fundamentais de Java e Programação Orientada a Objetos, com foco em organização de código, reutilização, criação de classes, uso de interface, herança, tratamento de exceções e manipulação de listas em memória.
+Durante o desenvolvimento deste projeto, foram praticados conceitos fundamentais de Java e Programação Orientada a Objetos, com foco em organização de código, criação de classes, uso de interface, herança, tratamento de exceções e manipulação de listas em memória.
 
+---
 
 ## 👩‍💻 Desenvolvedora
 
 **Dayana Barbosa**
 
+---
 
 ## 📄 Licença
 
